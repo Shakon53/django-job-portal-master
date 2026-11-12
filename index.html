@@ -28,12 +28,13 @@
     <nav class="main-nav" aria-label="Навигация">
       <a class="active" href="#jobs" data-i18n="navJobs">Жұмыс іздеу</a>
       <a href="#how" data-i18n="navHow">Қалай жұмыс істейді</a>
-      <a href="#jobs" data-i18n="navCompanies">Компаниялар</a>
+      <a href="#companies" data-i18n="navCompanies">Компаниялар</a>
     </nav>
     <div class="top-actions"><button class="lang-switch" id="languageToggle" type="button"><svg><use href="#i-globe"/></svg><span id="languageLabel">KZ</span><span class="lang-divider">/</span><span id="otherLanguage">RU</span></button><a class="post-link" href="mailto:hello@qadam.jobs" data-i18n="postJob">Вакансия жариялау</a></div>
   </header>
 
   <main id="top">
+    <div class="page-view" id="view-jobs">
     <section class="hero">
       <div class="hero-copy"><div class="eyebrow"><span class="live-dot"></span><span data-i18n="heroEyebrow">Қазақстандағы IT мүмкіндіктері</span></div>
         <h1 data-i18n="heroTitle">Келесі қадамың<br>осы жерден <span>басталады.</span></h1>
@@ -75,8 +76,21 @@
         <div class="empty-state" id="emptyState" hidden><span>⌕</span><h3 data-i18n="emptyTitle">Әзірге вакансия табылмады</h3><p data-i18n="emptyText">Іздеу сөзін немесе сүзгілерді өзгертіп көр.</p></div>
       </div>
     </section>
-    <section class="bottom-cta" id="how"><div class="cta-icon">✳</div><div><h2 data-i18n="ctaTitle">Өз мүмкіндігіңді күтпе. Тап.</h2><p data-i18n="ctaText">Жақсы жұмыс келесі қадамың болуы мүмкін.</p></div><a href="#jobs"><span data-i18n="ctaButton">Вакансияларды қарау</span><svg><use href="#i-arrow"/></svg></a></section>
+    <section class="bottom-cta"><div class="cta-icon">✳</div><div><h2 data-i18n="ctaTitle">Өз мүмкіндігіңді күтпе. Тап.</h2><p data-i18n="ctaText">Жақсы жұмыс келесі қадамың болуы мүмкін.</p></div><a href="#jobs"><span data-i18n="ctaButton">Вакансияларды қарау</span><svg><use href="#i-arrow"/></svg></a></section>
+    </div>
+    <section class="info-section page-view" id="how" hidden><div class="eyebrow section-kicker" data-i18n="howKicker">ҚАЛАЙ БАСТАУҒА БОЛАДЫ</div><h2 data-i18n="howTitle">Жұмысты үш қадаммен тап</h2><div class="steps-grid"><article><b>01</b><h3 data-i18n="stepOneTitle">Бағытыңды таңда</h3><p data-i18n="stepOneText">Рөл, дағды немесе компания бойынша ізде.</p></article><article><b>02</b><h3 data-i18n="stepTwoTitle">Вакансияларды салыстыр</h3><p data-i18n="stepTwoText">Жұмыс форматы мен жалақыны қарап, сүзгілерді қолдан.</p></article><article><b>03</b><h3 data-i18n="stepThreeTitle">Компанияға өтінім жібер</h3><p data-i18n="stepThreeText">Толық мәліметті ашып, ресми вакансия бетіне өт.</p></article></div><a class="info-link" href="#jobs" data-i18n="ctaButton">Вакансияларды қарау</a></section>
+    <section class="info-section companies-section page-view" id="companies" hidden><div class="eyebrow section-kicker" data-i18n="companiesKicker">ЖҰМЫС БЕРУШІЛЕР</div><h2 data-i18n="companiesTitle">Компаниялар</h2><p class="info-intro" data-i18n="companiesText">Қазақстандағы IT-компаниялардағы ашық мүмкіндіктер.</p><div class="companies-grid" id="companiesList"></div></section>
     <footer><a class="brand footer-brand" href="#top">qadam<span class="brand-dot">.</span></a><span data-i18n="footer">Мансаптағы келесі қадамың — бүгін.</span><span>© 2026 Qadam</span></footer>
   </main>
+  <dialog class="vacancy-dialog" id="vacancyDialog" aria-labelledby="vacancyTitle">
+    <div class="vacancy-dialog-head"><button class="vacancy-back" id="vacancyBack" type="button">← <span data-i18n="backToJobs">Вакансияларға қайту</span></button><button class="vacancy-close" id="vacancyClose" type="button" aria-label="Жабу">×</button></div>
+    <div class="vacancy-dialog-grid"><article class="vacancy-detail-card"><div class="vacancy-company" id="vacancyCompany"></div><h1 id="vacancyTitle"></h1><p class="vacancy-salary" id="vacancySalary"></p><div class="job-meta" id="vacancyMeta"></div><div class="tags" id="vacancyTags"></div><div class="vacancy-source"><span data-i18n="sourceLabel">Дереккөз: Hirify</span><a id="vacancySource" target="_blank" rel="noopener noreferrer" data-i18n="apply">Толығырақ және өтінім</a></div></article><aside class="vacancy-side-card"><h3 data-i18n="vacancyAbout">Вакансия туралы</h3><p id="vacancyDescription"></p><h3 data-i18n="vacancyCompany">Компания</h3><p id="vacancyCompanyAside"></p><a class="vacancy-apply" id="vacancyApply" target="_blank" rel="noopener noreferrer" data-i18n="apply">Толығырақ және өтінім →</a></aside></div>
+  </dialog>
+  <dialog class="contact-dialog" id="contactDialog" aria-labelledby="contactHeading">
+    <div class="contact-dialog-head"><div><p class="vacancy-company" id="contactCompany"></p><h2 id="contactHeading" data-i18n="contactTitle">Жұмыс берушімен байланысу</h2><p class="contact-job-title" id="contactJobTitle"></p></div><button class="vacancy-close" id="contactClose" type="button" aria-label="Жабу">×</button></div>
+    <div class="contact-phone-block"><strong data-i18n="contactPhoneLabel">Телефон</strong><div id="contactPhone"></div></div>
+    <label class="contact-message-label" for="contactMessage" data-i18n="contactMessageLabel">Жеке хабарлама</label><textarea id="contactMessage" rows="5"></textarea>
+    <div class="contact-dialog-actions"><button id="contactSend" type="button" class="contact-send" data-i18n="contactSend">Хабарламаны көшіру және вакансияны ашу</button><a id="contactSource" target="_blank" rel="noopener noreferrer" data-i18n="contactSource">Түпнұсқа вакансияны ашу</a></div><p id="contactStatus" class="contact-status" role="status"></p>
+  </dialog>
 </body>
 </html>

@@ -1,18 +1,18 @@
 const copy = {
   kk: {
-    navJobs:'Жұмыс іздеу',navHow:'Қалай жұмыс істейді',navCompanies:'Компаниялар',postJob:'Вакансия жариялау',
+    navJobs:'Жұмыс іздеу',navHow:'Қалай жұмыс істейді',navCompanies:'Компаниялар',postJob:'Вакансия жариялау',howKicker:'ҚАЛАЙ БАСТАУҒА БОЛАДЫ',howTitle:'Жұмысты үш қадаммен тап',stepOneTitle:'Бағытыңды таңда',stepOneText:'Рөл, дағды немесе компания бойынша ізде.',stepTwoTitle:'Вакансияларды салыстыр',stepTwoText:'Жұмыс форматы мен жалақыны қарап, сүзгілерді қолдан.',stepThreeTitle:'Компанияға өтінім жібер',stepThreeText:'Толық мәліметті ашып, ресми вакансия бетіне өт.',companiesKicker:'ЖҰМЫС БЕРУШІЛЕР',companiesTitle:'Компаниялар',companiesText:'Қазақстандағы IT-компаниялардағы ашық мүмкіндіктер.',companyJobs:n=>`${n} вакансия`,
     heroEyebrow:'Қазақстандағы IT мүмкіндіктері',heroTitle:'Келесі қадамың<br>осы жерден <span>басталады.</span>',heroText:'Өзіңе сай IT жұмысын тап. Мықты командалар мен жаңа мүмкіндіктер бір жерде.',statJobs:'нақты вакансия',statTeams:'дереккөзге сілтеме',statCities:'жалақы валютасы',searchPlaceholder:'Лауазым, компания немесе дағды',searchButton:'Вакансия табу',popular:'Танымал:',
-    sectionKicker:'СЕН ҮШІН ТАБЫЛДЫ',sectionTitle:'Жаңа мүмкіндіктер',sectionText:'Армандаған жұмысыңа бір қадам жақын.',savedJobs:'Сақталғандар',sortLabel:'Реттеу:',sortNewest:'Ең жаңасы',sortSalary:'Жалақысы жоғары',filters:'Сүзгілер',clear:'Тазарту',filterRole:'Бағыт',roleDesign:'Дизайн',roleQA:'QA / Тестілеу',roleDevOps:'DevOps / Инфрақұрылым',filterType:'Жұмыс форматы',remote:'Қашықтан',hybrid:'Гибрид',office:'Кеңседе',filterNote:'Жақсы мүмкіндік іздеуден басталады.',companyProduct:'Өнімдік IT-компания',companyFintech:'Технологиялық финтех',companyTech:'Технология және қаржы',companyEcom:'Онлайн-супермаркет',fullTime:'Толық жұмыс күні',newBadge:'ЖАҢА',descFrontend:'Қазақстандағы миллиондаған адам қолданатын өнімнің интерфейсін жаса.',descBackend:'Мыңдаған төлемге қызмет көрсететін сенімді сервистерді дамыт.',descFullstack:'Жаңа цифрлық сервистерді жобалап, өнімді командамен бірге іске қос.',descDesign:'Сатып алуды жеңіл әрі жағымды ететін цифрлық тәжірибе құрастыр.',descGeneric:'Толық талаптар мен компания туралы мәлімет бастапқы хабарландыруда берілген.',postedToday:'Бүгін жарияланды',postedYesterday:'Кеше жарияланды',postedTwoDays:'2 күн бұрын',postedThreeDays:'3 күн бұрын',apply:'Толығырақ және өтінім',emptyTitle:'Әзірге вакансия табылмады',emptyText:'Іздеу сөзін немесе сүзгілерді өзгертіп көр.',ctaTitle:'Өз мүмкіндігіңді күтпе. Тап.',ctaText:'Жақсы жұмыс келесі қадамың болуы мүмкін.',ctaButton:'Вакансияларды қарау',footer:'Мансаптағы келесі қадамың — бүгін.',
-    sourceLabel:'Дереккөз: Hirify · 2026',apply:'Толығырақ және өтінім',postedToday:'Бүгін жаңартылды',postedFourDays:'4 күн бұрын жарияланды',postedSixDays:'6 күн бұрын жарияланды',postedTwentyDays:'20 күн бұрын жарияланды',postedTwentyTwoDays:'22 күн бұрын жарияланды',
-    descPythonSupport:'Python скрипттері мен ішкі сервистерді әзірле; мектептің IT жүйелерін қолда.',descTraineeNet:'C#, ASP.NET Core және SQL бойынша ақылы тағылымдамадан өтіп, .NET әзірлеушісі ретінде баста.',descJuniorFrontend:'Электронды үкімет сервистеріне React және Next.js арқылы жаңа беттер мен компоненттер жаса.',descBackendAI:'Python және Django арқылы AI, аудио өңдеу мен мобильді қосымшаға арналған backend сервистерін дамыт.',descSeniorBackend:'Python сервистерін Go тіліне көшіруге және телеком өнімінің микросервистерін дамытуға қатыс.',descPythonAI:'Таразда AI бейнебақылау жүйесіне арналған Python backend және компьютерлік көруді жаса.',
+    sectionKicker:'СЕН ҮШІН ТАБЫЛДЫ',sectionTitle:'Байланыс телефоны бар вакансиялар',sectionText:'Телефон нөмірі ашық жарияланған вакансиялар ғана көрсетіледі.',savedJobs:'Сақталғандар',sortLabel:'Реттеу:',sortNewest:'Ең жаңасы',sortSalary:'Жалақысы жоғары',filters:'Сүзгілер',clear:'Тазарту',filterRole:'Бағыт',roleDesign:'Дизайн',roleQA:'QA / Тестілеу',roleDevOps:'DevOps / Инфрақұрылым',filterType:'Жұмыс форматы',remote:'Қашықтан',hybrid:'Гибрид',office:'Кеңседе',filterNote:'Жақсы мүмкіндік іздеуден басталады.',companyProduct:'Өнімдік IT-компания',companyFintech:'Технологиялық финтех',companyTech:'Технология және қаржы',companyEcom:'Онлайн-супермаркет',fullTime:'Толық жұмыс күні',newBadge:'ЖАҢА',descFrontend:'Қазақстандағы миллиондаған адам қолданатын өнімнің интерфейсін жаса.',descBackend:'Мыңдаған төлемге қызмет көрсететін сенімді сервистерді дамыт.',descFullstack:'Жаңа цифрлық сервистерді жобалап, өнімді командамен бірге іске қос.',descDesign:'Сатып алуды жеңіл әрі жағымды ететін цифрлық тәжірибе құрастыр.',descGeneric:'Толық талаптар мен компания туралы мәлімет бастапқы хабарландыруда берілген.',postedToday:'Бүгін жарияланды',postedYesterday:'Кеше жарияланды',postedTwoDays:'2 күн бұрын',postedThreeDays:'3 күн бұрын',apply:'Толығырақ және өтінім',emptyTitle:'Телефоны көрсетілген вакансия табылмады',emptyText:'Қазір деректерде ашық телефон нөмірі көрсетілген вакансия жоқ.',ctaTitle:'Өз мүмкіндігіңді күтпе. Тап.',ctaText:'Жақсы жұмыс келесі қадамың болуы мүмкін.',ctaButton:'Вакансияларды қарау',footer:'Мансаптағы келесі қадамың — бүгін.',
+    sourceLabel:'Дереккөз: Hirify · 2026',apply:'Толығырақ және өтінім',viewVacancy:'Вакансияны қарау',contactButton:'Хабарласу',contactTitle:'Жұмыс берушімен байланысу',contactPhoneLabel:'Телефон',contactUnavailable:'Телефон нөмірі ашық жарияланбаған.',contactSource:'Түпнұсқа вакансияны ашу',contactMessageLabel:'Жеке хабарлама',contactMessagePlaceholder:'Сәлеметсіз бе! Вакансияңыз қызықтырды. Толығырақ сөйлессек бола ма?',contactSend:'Хабарламаны көшіру және вакансияны ашу',contactCopied:'Хабарлама көшірілді. Вакансия бетіне өтіп, жұмыс берушіге жіберіңіз.',contactClose:'Жабу',backToJobs:'Вакансияларға қайту',vacancyAbout:'Вакансия туралы',vacancyCompany:'Компания',postedToday:'Бүгін жаңартылды',postedFourDays:'4 күн бұрын жарияланды',postedSixDays:'6 күн бұрын жарияланды',postedTwentyDays:'20 күн бұрын жарияланды',postedTwentyTwoDays:'22 күн бұрын жарияланды',
+    descPythonSupport:'Python скрипттері мен ішкі сервистерді әзірле; мектептің IT жүйелерін қолда.',descTraineeNet:'C#, ASP.NET Core және SQL бойынша ақылы тағылымдамадан өтіп, .NET әзірлеушісі ретінде баста.',descJuniorFrontend:'Электронды үкімет сервистеріне React және Next.js арқылы жаңа беттер мен компоненттер жаса.',descBackendAI:'Python және Django арқылы AI, аудио өңдеу мен мобильді қосымшаға арналған backend сервистерін дамыт.',descSeniorBackend:'Python сервистерін Go тіліне көшіруге және телеком өнімінің микросервистерін дамытуға қатыс.',descPythonAI:'Таразда AI бейнебақылау жүйесіне арналған Python backend және компьютерлік көруді жаса.',descGoBackend:'Go және PostgreSQL арқылы кадрлық құжат айналымы платформасының backend мүмкіндіктері мен интеграцияларын әзірле.',
     count:n=>`${n} нақты вакансия көрсетілді`,applyAlert:'Өтінімді жіберу үшін компанияның ресми мансап парақшасына өтіңіз.',savedOn:'Сақталған вакансиялар көрсетіліп тұр',savedOff:'Барлық вакансия көрсетіліп тұр'
   },
   ru: {
-    navJobs:'Найти работу',navHow:'Как это работает',navCompanies:'Компании',postJob:'Разместить вакансию',
+    navJobs:'Найти работу',navHow:'Как это работает',navCompanies:'Компании',postJob:'Разместить вакансию',howKicker:'КАК НАЧАТЬ',howTitle:'Найди работу за три шага',stepOneTitle:'Выбери направление',stepOneText:'Ищи по должности, навыку или компании.',stepTwoTitle:'Сравни вакансии',stepTwoText:'Смотри формат и зарплату, используй фильтры.',stepThreeTitle:'Откликнись в компанию',stepThreeText:'Открой подробности и перейди на официальную страницу вакансии.',companiesKicker:'РАБОТОДАТЕЛИ',companiesTitle:'Компании',companiesText:'Открытые вакансии IT-компаний Казахстана.',companyJobs:n=>`Вакансий: ${n}`,
     heroEyebrow:'IT-возможности в Казахстане',heroTitle:'Твой следующий шаг<br><span>начинается здесь.</span>',heroText:'Найди IT-работу по душе. Сильные команды и новые возможности в одном месте.',statJobs:'актуальных вакансий',statTeams:'ссылки на источник',statCities:'зарплата в тенге',searchPlaceholder:'Должность, компания или навык',searchButton:'Найти вакансию',popular:'Популярное:',
-    sectionKicker:'ПОДОБРАЛИ ДЛЯ ТЕБЯ',sectionTitle:'Новые возможности',sectionText:'Стань на шаг ближе к работе мечты.',savedJobs:'Избранное',sortLabel:'Сортировка:',sortNewest:'Сначала новые',sortSalary:'Сначала с высокой зарплатой',filters:'Фильтры',clear:'Сбросить',filterRole:'Направление',roleDesign:'Дизайн',roleQA:'QA / Тестирование',roleDevOps:'DevOps / Инфраструктура',filterType:'Формат работы',remote:'Удалённо',hybrid:'Гибрид',office:'В офисе',filterNote:'Хорошая возможность начинается с поиска.',companyProduct:'Продуктовая IT-компания',companyFintech:'Технологичный финтех',companyTech:'Технологии и финансы',companyEcom:'Онлайн-супермаркет',fullTime:'Полный рабочий день',newBadge:'НОВОЕ',descFrontend:'Создавай интерфейс продукта, которым пользуются миллионы людей в Казахстане.',descBackend:'Развивай надёжные сервисы, которые обрабатывают тысячи платежей.',descFullstack:'Проектируй новые цифровые сервисы и запускай их вместе с продуктовой командой.',descDesign:'Создавай цифровой опыт, который делает покупки проще и приятнее.',descGeneric:'Подробные требования и информация о компании есть в исходной публикации.',postedToday:'Опубликовано сегодня',postedYesterday:'Опубликовано вчера',postedTwoDays:'2 дня назад',postedThreeDays:'3 дня назад',apply:'Подробнее и откликнуться',emptyTitle:'Вакансий пока нет',emptyText:'Попробуй изменить запрос или фильтры.',ctaTitle:'Не жди возможности. Найди её.',ctaText:'Хорошая работа может стать твоим следующим шагом.',ctaButton:'Смотреть вакансии',footer:'Твой следующий шаг в карьере — сегодня.',
-    sourceLabel:'Источник: Hirify · 2026',apply:'Подробнее и откликнуться',postedToday:'Обновлено сегодня',postedFourDays:'Опубликовано 4 дня назад',postedSixDays:'Опубликовано 6 дней назад',postedTwentyDays:'Опубликовано 20 дней назад',postedTwentyTwoDays:'Опубликовано 22 дня назад',
-    descPythonSupport:'Разрабатывай внутренние сервисы на Python и поддерживай IT-системы школы.',descTraineeNet:'Пройди интенсивную стажировку по C#, ASP.NET Core и SQL и начни карьеру .NET-разработчика.',descJuniorFrontend:'Создавай страницы и компоненты для сервисов электронного правительства на React и Next.js.',descBackendAI:'Развивай backend на Python и Django для AI-функций, обработки аудио и мобильного приложения.',descSeniorBackend:'Участвуй в переносе сервисов с Python на Go и развивай микросервисы телеком-продукта.',descPythonAI:'Разрабатывай Python backend и компьютерное зрение для AI-системы видеонаблюдения в Таразе.',
+    sectionKicker:'ПОДОБРАЛИ ДЛЯ ТЕБЯ',sectionTitle:'Вакансии с контактным телефоном',sectionText:'Показываем только вакансии с опубликованным номером телефона.',savedJobs:'Избранное',sortLabel:'Сортировка:',sortNewest:'Сначала новые',sortSalary:'Сначала с высокой зарплатой',filters:'Фильтры',clear:'Сбросить',filterRole:'Направление',roleDesign:'Дизайн',roleQA:'QA / Тестирование',roleDevOps:'DevOps / Инфраструктура',filterType:'Формат работы',remote:'Удалённо',hybrid:'Гибрид',office:'В офисе',filterNote:'Хорошая возможность начинается с поиска.',companyProduct:'Продуктовая IT-компания',companyFintech:'Технологичный финтех',companyTech:'Технологии и финансы',companyEcom:'Онлайн-супермаркет',fullTime:'Полный рабочий день',newBadge:'НОВОЕ',descFrontend:'Создавай интерфейс продукта, которым пользуются миллионы людей в Казахстане.',descBackend:'Развивай надёжные сервисы, которые обрабатывают тысячи платежей.',descFullstack:'Проектируй новые цифровые сервисы и запускай их вместе с продуктовой командой.',descDesign:'Создавай цифровой опыт, который делает покупки проще и приятнее.',descGeneric:'Подробные требования и информация о компании есть в исходной публикации.',postedToday:'Опубликовано сегодня',postedYesterday:'Опубликовано вчера',postedTwoDays:'2 дня назад',postedThreeDays:'3 дня назад',apply:'Подробнее и откликнуться',emptyTitle:'Нет вакансий с опубликованным телефоном',emptyText:'Сейчас в данных нет вакансий с открытым номером телефона.',ctaTitle:'Не жди возможности. Найди её.',ctaText:'Хорошая работа может стать твоим следующим шагом.',ctaButton:'Смотреть вакансии',footer:'Твой следующий шаг в карьере — сегодня.',
+    sourceLabel:'Источник: Hirify · 2026',apply:'Подробнее и откликнуться',viewVacancy:'Вакансия',contactButton:'Контакты',contactTitle:'Связаться с работодателем',contactPhoneLabel:'Телефон',contactUnavailable:'Номер телефона не опубликован открыто.',contactSource:'Открыть исходную вакансию',contactMessageLabel:'Личное сообщение',contactMessagePlaceholder:'Здравствуйте! Меня заинтересовала ваша вакансия. Можно узнать подробности?',contactSend:'Скопировать сообщение и открыть вакансию',contactCopied:'Сообщение скопировано. Откройте вакансию и отправьте его работодателю.',contactClose:'Закрыть',backToJobs:'Назад к вакансиям',vacancyAbout:'О вакансии',vacancyCompany:'Компания',postedToday:'Обновлено сегодня',postedFourDays:'Опубликовано 4 дня назад',postedSixDays:'Опубликовано 6 дней назад',postedTwentyDays:'Опубликовано 20 дней назад',postedTwentyTwoDays:'Опубликовано 22 дня назад',
+    descPythonSupport:'Разрабатывай внутренние сервисы на Python и поддерживай IT-системы школы.',descTraineeNet:'Пройди интенсивную стажировку по C#, ASP.NET Core и SQL и начни карьеру .NET-разработчика.',descJuniorFrontend:'Создавай страницы и компоненты для сервисов электронного правительства на React и Next.js.',descBackendAI:'Развивай backend на Python и Django для AI-функций, обработки аудио и мобильного приложения.',descSeniorBackend:'Участвуй в переносе сервисов с Python на Go и развивай микросервисы телеком-продукта.',descPythonAI:'Разрабатывай Python backend и компьютерное зрение для AI-системы видеонаблюдения в Таразе.',descGoBackend:'Разрабатывай backend-функции и интеграции HR-платформы на Go и PostgreSQL.',
     count:n=>`Реальных вакансий: ${n}`,applyAlert:'Чтобы откликнуться, перейди на официальную страницу вакансии компании.',savedOn:'Показаны сохранённые вакансии',savedOff:'Показаны все вакансии'
   }
 };
@@ -21,6 +21,7 @@ const $$=(selector,root=document)=>[...root.querySelectorAll(selector)];
 const roleNames={Frontend:{kk:'Frontend Developer',ru:'Frontend-разработчик'},Backend:{kk:'Backend Developer',ru:'Backend-разработчик'},Fullstack:{kk:'Fullstack Developer',ru:'Fullstack-разработчик'},QA:{kk:'QA / Тестілеу',ru:'QA / Тестирование'},Mobile:{kk:'Mobile Developer',ru:'Мобильная разработка'},Data:{kk:'Data / AI',ru:'Data / AI'},DevOps:{kk:'DevOps / Инфрақұрылым',ru:'DevOps / Инфраструктура'},Design:{kk:'Дизайн',ru:'Дизайн'}};
 let language=localStorage.getItem('qadam-language')||'kk';
 let onlySaved=false;
+let activeContactIndex=null;
 const vacancies=[
   {company:'High Tech Academy',logo:'HT',style:'logo-orange',title:'Python-разработчик / IT-специалист Helpdesk',role:'Backend',format:'Office',city:'Алматы · Кок-Тобе',cityRu:'Алматы · Кок-Тобе',work:'Office',salary:'400–600 мың ₸',salaryRu:'400–600 тыс. ₸',salaryValue:500000,posted:'postedToday',desc:'descPythonSupport',tags:['Python','Windows Server','PowerShell'],date:'2026-11-04',url:'https://hirify.me/jobs/1354803-python-helpdesk-it-specialist',fresh:true},
   {company:'Andersen Lab',logo:'A',style:'logo-purple',title:'Trainee .NET Developer',role:'Backend',format:'Hybrid',city:'Алматы / Қазақстан бойынша онлайн',cityRu:'Алматы / онлайн по Казахстану',work:'Hybrid',salary:'270 мың ₸ дейін',salaryRu:'до 270 тыс. ₸',salaryValue:270000,posted:'postedToday',desc:'descTraineeNet',tags:['C#','.NET','SQL'],date:'2026-11-04',url:'https://hirify.me/jobs/1084638-trainee-net-developer',fresh:true},
@@ -32,9 +33,9 @@ const vacancies=[
 let jobs=[];
 const saved=()=>{try{return JSON.parse(localStorage.getItem('qadam-saved')||'[]').map(String).filter(id=>/^\d+$/.test(id)&&Number(id)<vacancies.length);}catch{return[];}};
 
-function addVacancy(company,title,role,city,format,salary,salaryRu,salaryValue,tags,url,date,fresh=false){
+function addVacancy(company,title,role,city,format,salary,salaryRu,salaryValue,tags,url,date,fresh=false,phone='',contactUrl=''){
   const logo=company.replace(/[^\p{L}\p{N}]/gu,'').slice(0,3)||'IT';
-  vacancies.push({company,logo,style:['Frontend','Design'].includes(role)?'logo-blue':role==='QA'?'logo-green':role==='Mobile'?'logo-purple':'logo-orange',title,role,format,city,cityRu:city,work:format,salary,salaryRu,salaryValue,posted:'',desc:'descGeneric',tags,date,url,fresh});
+  vacancies.push({company,logo,style:['Frontend','Design'].includes(role)?'logo-blue':role==='QA'?'logo-green':role==='Mobile'?'logo-purple':'logo-orange',title,role,format,city,cityRu:city,work:format,salary,salaryRu,salaryValue,posted:'',desc:'descGeneric',tags,date,url,fresh,phone,contactUrl});
 }
 
 addVacancy('Andersen Lab','QA Trainee','QA','Қазақстан','Hybrid','Жалақысы көрсетілмеген','Зарплата не указана',0,['QA','SQL','Web','Mobile'],'https://hirify.me/jobs/1204073-qa-trainee','2026-11-04',true);
@@ -71,14 +72,20 @@ addVacancy('Jana Post','Senior Flutter Developer','Mobile','Қазақстан',
 addVacancy('inDrive','Android Tech Lead','Mobile','Қазақстан','Hybrid','Жалақысы көрсетілмеген','Зарплата не указана',0,['Android','Kotlin','CI/CD'],'https://hirify.me/jobs/1204252-android-tech-lead','2026-10-06');
 addVacancy('qMed AI','Flutter Developer','Mobile','Қазақстан','Office','200 мың ₸','200 тыс. ₸',200000,['Flutter','Android','AI'],'https://hirify.me/jobs/1206921-flutter-developer-ai','2026-10-06');
 addVacancy('arqa','Vibecoder (Flutter Developer)','Mobile','Қазақстан','Remote','300–500 мың ₸','300–500 тыс. ₸',400000,['Flutter','Dart','AI'],'https://hirify.me/jobs/1211446-vibecoder-claude-coder-razrabotcik-flutter','2026-10-06');
+addVacancy('Doodocs','Go backend-разработчик (Middle+/Senior)','Backend','Астана','Office','800 мың–1,2 млн ₸','800 тыс.–1,2 млн ₸',1000000,['Go','PostgreSQL','gRPC','Kubernetes'],'https://t.me/workitkz/7897','2026-11-12',true,'+7 708 931 42 01','https://wa.me/77089314201');
+vacancies[vacancies.length-1].desc='descGoBackend';
 
 function renderVacancies(){
+  vacancies.splice(0,vacancies.length,...vacancies.filter(job=>typeof job.phone==='string'&&/^\+?[\d\s()\-]+$/.test(job.phone.trim())&&job.phone.replace(/\D/g,'').length>=7));
   $('#jobList').innerHTML=vacancies.map((job,index)=>`<article class="job-card" data-id="${index}" data-role="${job.role}" data-format="${job.format}" data-salary="${job.salaryValue}" data-date="${job.date}" data-search="${[job.company,job.title,job.city,job.cityRu,...job.tags].join(' ').toLocaleLowerCase()}">
     <div class="card-top"><div class="company-logo ${job.style}">${job.logo}</div><div class="company-info"><h3>${job.company}</h3><p>${roleNames[job.role]?.[language]||job.role}</p></div><button class="bookmark" aria-label="${language==='kk'?'Сақтау':'Сохранить вакансию'}" aria-pressed="false"><svg><use href="#i-bookmark"/></svg></button>${job.fresh?`<span class="new-badge">${language==='kk'?'ЖАҢА':'НОВОЕ'}</span>`:''}</div>
-    <h2>${job.title}</h2><div class="job-meta"><span><svg><use href="#i-pin"/></svg>${language==='kk'?job.city:job.cityRu}</span><span><svg><use href="#i-clock"/></svg><span data-i18n="${job.work==='Remote'?'remote':job.work==='Hybrid'?'hybrid':'office'}"></span></span><span><svg><use href="#i-wallet"/></svg>${language==='kk'?job.salary:job.salaryRu}</span></div><p class="job-desc" data-i18n="${job.desc}"></p><div class="tags">${job.tags.map(tag=>`<span>${tag}</span>`).join('')}</div><div class="card-bottom"><span>⏱ ${new Intl.DateTimeFormat(language==='kk'?'kk-KZ':'ru-RU',{day:'numeric',month:'short',year:'numeric'}).format(new Date(job.date+'T12:00:00'))}</span><a class="apply-button" href="${job.url}" target="_blank" rel="noopener noreferrer"><span data-i18n="apply"></span><svg><use href="#i-arrow"/></svg></a></div>
+    <h2>${job.title}</h2><div class="job-meta"><span><svg><use href="#i-pin"/></svg>${language==='kk'?job.city:job.cityRu}</span><span><svg><use href="#i-clock"/></svg><span data-i18n="${job.work==='Remote'?'remote':job.work==='Hybrid'?'hybrid':'office'}"></span></span><span><svg><use href="#i-wallet"/></svg>${language==='kk'?job.salary:job.salaryRu}</span></div><p class="job-desc" data-i18n="${job.desc}"></p><div class="tags">${job.tags.map(tag=>`<span>${tag}</span>`).join('')}</div><div class="card-bottom"><span>⏱ ${new Intl.DateTimeFormat(language==='kk'?'kk-KZ':'ru-RU',{day:'numeric',month:'short',year:'numeric'}).format(new Date(job.date+'T12:00:00'))}</span><div class="card-actions"><button class="apply-button vacancy-open" type="button" data-job-id="${index}"><span data-i18n="viewVacancy"></span><svg><use href="#i-arrow"/></svg></button><button class="contact-button" type="button" data-contact-id="${index}"><span data-i18n="contactButton"></span><svg><use href="#i-arrow"/></svg></button></div></div>
     </article>`).join('');
   jobs=$$('.job-card');
   $('#vacancyTotal').textContent=vacancies.length;
+  const companies=[...new Set(vacancies.map(job=>job.company))];
+  $('#companiesList').innerHTML=companies.map(company=>{const jobs=vacancies.filter(job=>job.company===company);const initials=company.split(/\s+/).map(word=>word[0]).join('').slice(0,2);return `<button class="company-card" type="button" data-company="${company}"><span class="company-logo logo-green">${initials}</span><span><strong>${company}</strong><small>${copy[language].companyJobs(jobs.length)}</small></span><svg><use href="#i-arrow"/></svg></button>`;}).join('');
+  $$('.company-card').forEach(button=>button.addEventListener('click',()=>{$('#search').value=button.dataset.company;updateResults();showPage('jobs');}));
   $$('[data-role-count]').forEach(node=>{node.textContent=String(vacancies.filter(job=>job.role===node.dataset.roleCount).length).padStart(2,'0');});
   $$('.bookmark').forEach(button=>button.addEventListener('click',()=>{
     const id=button.closest('.job-card').dataset.id;
@@ -87,7 +94,55 @@ function renderVacancies(){
     localStorage.setItem('qadam-saved',JSON.stringify(next));
     updateSavedButtons();updateResults();
   }));
+  $$('.vacancy-open').forEach(button=>button.addEventListener('click',()=>showVacancy(Number(button.dataset.jobId))));
+  $$('.contact-button').forEach(button=>button.addEventListener('click',()=>showContact(Number(button.dataset.contactId))));
 }
+
+function showContact(index){
+  const job=vacancies[index];
+  if(!job)return;
+  activeContactIndex=index;
+  const t=copy[language];
+  $('#contactCompany').textContent=job.company;
+  $('#contactJobTitle').textContent=job.title;
+  $('#contactPhone').innerHTML=job.phone?`<a href="tel:${job.phone.replace(/[^+\d]/g,'')}">${job.phone}</a>${job.contactUrl?`<a class="whatsapp-link" href="${job.contactUrl}" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a>`:''}`:`<span>${t.contactUnavailable}</span>`;
+  $('#contactSource').textContent=t.contactSource;
+  $('#contactSource').href=job.url;
+  $('#contactMessage').value=language==='kk'?`Сәлеметсіз бе! «${job.title}» вакансияңыз қызықтырды. Толығырақ сөйлессек бола ма?`:`Здравствуйте! Меня заинтересовала ваша вакансия «${job.title}». Можно узнать подробности?`;
+  $('#contactStatus').textContent='';
+  $('#contactDialog').showModal();
+}
+
+function showVacancy(index){
+  const job=vacancies[index];
+  if(!job)return;
+  const t=copy[language];
+  $('#vacancyCompany').textContent=job.company;
+  $('#vacancyTitle').textContent=job.title;
+  $('#vacancySalary').textContent=language==='kk'?job.salary:job.salaryRu;
+  $('#vacancyMeta').innerHTML=`<span>${language==='kk'?job.city:job.cityRu}</span><span>${t[job.work==='Remote'?'remote':job.work==='Hybrid'?'hybrid':'office']}</span><span>${t.fullTime}</span>`;
+  $('#vacancyTags').innerHTML=job.tags.map(tag=>`<span>${tag}</span>`).join('');
+  $('#vacancyDescription').textContent=t[job.desc]||t.descGeneric;
+  $('#vacancyCompanyAside').textContent=job.company;
+  $('#vacancySource').href=job.url;
+  $('#vacancyApply').href=job.url;
+  $('#vacancyDialog').showModal();
+}
+
+$('#vacancyBack').addEventListener('click',()=>$('#vacancyDialog').close());
+$('#vacancyClose').addEventListener('click',()=>$('#vacancyDialog').close());
+$('#vacancyDialog').addEventListener('click',event=>{if(event.target===$('#vacancyDialog'))$('#vacancyDialog').close();});
+$('#contactClose').addEventListener('click',()=>$('#contactDialog').close());
+$('#contactDialog').addEventListener('click',event=>{if(event.target===$('#contactDialog'))$('#contactDialog').close();});
+$('#contactSend').addEventListener('click',async()=>{
+  const job=vacancies[activeContactIndex];
+  if(!job)return;
+  const message=$('#contactMessage').value.trim();
+  if(!message)return;
+  window.open(job.contactUrl||job.url,'_blank','noopener');
+  try{await navigator.clipboard.writeText(message);}catch{$('#contactMessage').focus();$('#contactMessage').select();document.execCommand('copy');}
+  $('#contactStatus').textContent=copy[language].contactCopied;
+});
 
 function translate(){
   const t=copy[language];
@@ -150,6 +205,14 @@ $$('.filter-group input').forEach(input=>input.addEventListener('change',updateR
 $('#clearFilters').addEventListener('click',()=>{$$('.filter-group input').forEach(input=>input.checked=false);$('#search').value='';onlySaved=false;$('#savedToggle').classList.remove('is-active');updateResults();});
 $('#sortSelect').addEventListener('change',updateResults);
 $('#savedToggle').addEventListener('click',()=>{onlySaved=!onlySaved;$('#savedToggle').classList.toggle('is-active',onlySaved);$('#savedToggle').setAttribute('aria-pressed',String(onlySaved));updateResults();});
+function showPage(page){
+  const view=page==='how'?'how':page==='companies'?'companies':'jobs';
+  $$('.page-view').forEach(section=>section.hidden=section.id!==`view-${view}`&&section.id!==view);
+  $$('.main-nav a').forEach(link=>link.classList.toggle('active',link.hash===(view==='jobs'?'#jobs':`#${view}`)));
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+$$('.main-nav a').forEach(link=>link.addEventListener('click',event=>{event.preventDefault();showPage(link.hash.slice(1)==='how'?'how':link.hash.slice(1)==='companies'?'companies':'jobs');}));
+$$('a[href="#jobs"]').forEach(link=>link.addEventListener('click',event=>{event.preventDefault();showPage('jobs');}));
 renderVacancies();
 updateSavedButtons();
 translate();
